@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio, check e textarea</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+
+<body>
+    <form action="">
+        <h2>Realize o cadastro na nossa plataforma</h2>
+        
+        <fieldset>
+            <legend><h4>Informações de entrada</h4></legend>
+
+            <label for="email">Digite seu e-mail:</label>
+            <input type="email" name="" id="email"><br>
+
+            <label for="password">Digite sua senha:</label>
+            <input type="password" name="" id="password"><br>
+
+            <label for="password2">Redigite a sua senha:</label>
+            <input type="password" name="" id="password2">
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Qual o Sistema Operacional você usa?</h4></legend>
+
+            <input type="radio" name="os" id="linux">
+            <label for="linux">Linux</label><br>
+
+            <input type="radio" name="os" id="windows">
+            <label for="windows"> Windows</label><br>
+
+            <input type="radio" name="os" id="macos">
+            <label for="macos">Mac OS</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend><h4>Quais atividades você realiza no computador?</h4></legend>
+            
+            <input type="checkbox" name="atividades" id="jogo">
+            <label for="jogo">Jogar</label><br>
+            
+            <input type="checkbox" name="atividades" id="edicao">
+            <label for="edicao">Edição videos, fotos</label><br>
+
+            <input type="checkbox" name="atividades" id="escritorio">
+            <label for="escritorio">Softwares escritorio (word, excel afins)</label><br>
+        </fieldset>
+
+        <label for="experiencia">Digite sua experiencia com o computador:</label><br>
+        <textarea name="experiencia" id="experiencia" style="width: 100%;"></textarea>
+        
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
